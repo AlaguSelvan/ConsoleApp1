@@ -9,10 +9,17 @@ namespace ConsoleApp1
             var program = new Program();
             var programList = new ListClass();
             var programArray = new ArrayClass();
-            //var programString = new StringClass();
+            var programString = new StringClass();
+            var programClass = new TutClass();
+            var programStringBuilder = new StringBuilderClass();
             var Person = new Person();
-            var summary = StringClass.SummarizeText("This is gonna be a really really really long text.");
-            Console.WriteLine(summary);
+            //var summary = programString.SummarizeText("Test Test Test Test TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT.");
+            //programStringBuilder.Excercise1();
+            //programClass.StaticCheck();
+            var mod = new AccessModifiers();
+
+            /*Excercise1();*/
+            //Console.WriteLine(summary);
             //Person.firstName = "john";
             //Person.lastName = "doe";
             //Person.Introduce();
@@ -26,7 +33,7 @@ namespace ConsoleApp1
         }
 
 
-        private void Excercise1()
+        private static void Excercise1()
         {
             var nums = new int[5] { 1, 2, 3, 4, 5 };
             var c = 0;
@@ -38,7 +45,7 @@ namespace ConsoleApp1
             Console.WriteLine("There are {0} numbers divisible by 3", c);
         }
 
-        private void Excercise2()
+        private static void Excercise2()
         {
             var sum = 0;
             while (true)
@@ -53,7 +60,7 @@ namespace ConsoleApp1
             }
             Console.WriteLine("Sum of all numbers is: " + sum);
         }
-        private void Exercise3()
+        private static void Exercise3()
         {
             Console.Write("Enter a number: ");
             var number = Convert.ToInt32(Console.ReadLine());

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
@@ -20,10 +17,9 @@ namespace ConsoleApp1
             Console.WriteLine(title);
         }
 
-        public static string SummarizeText(string text, int maxLength = 30)
+        public string SummarizeText(string text, int maxLength = 30)
         {
-            Console.WriteLine("Text Length is:", text.Length);
-            Console.WriteLine("maxLength is:", maxLength);
+            Console.WriteLine("text is {0}, and maxLength is {1}", text, maxLength);
             if (text.Length <= maxLength)
                 return text;
             else
@@ -40,6 +36,8 @@ namespace ConsoleApp1
                         break;
                 }
                 Console.WriteLine(String.Join(" ", summaryWords) + "...");
+                Console.WriteLine("Text Length is:", text.Length);
+                Console.WriteLine("maxLength is:", maxLength);
                 return String.Join(" ", summaryWords) + "...";
             }
         }
