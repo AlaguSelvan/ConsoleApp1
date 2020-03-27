@@ -16,8 +16,8 @@ namespace ConsoleApp1
             //var summary = programString.SummarizeText("Test Test Test Test TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT.");
             //programStringBuilder.Excercise1();
             //programClass.StaticCheck();
-            var mod = new AccessModifiers();
-
+            var mod = new ProgramMod();
+            ProgramMod.Test();
             /*Excercise1();*/
             //Console.WriteLine(summary);
             //Person.firstName = "john";

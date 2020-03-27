@@ -44,7 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ArrayClass.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="Composition.cs" />
+    <Compile Include="Coupling.cs" />
+    <Compile Include="IndexerTut.cs" />
+    <Compile Include="Inheritance.cs" />
+    <Compile Include="ProgramMod.cs" />
     <Compile Include="ClassTutorial.cs" />
     <Compile Include="Customer.cs" />
     <Compile Include="FileClass.cs" />
